@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BiPhimTV.biz</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+    <div id="header">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container justify-content-center">
+                <a class="navbar-brand" href="./index.html"><img src="./images/biphimtvbiz.png" alt="BiPhimTV"
+                        width=235 height=60></a>
+                <ul class="nav justify-content-end mb-5 ms-3 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" onclick="alert('Chức năng này đang cập nhật');return false;"><img
+                                src="./images/log-in.png" alt="#" width="20" height="20">Đăng nhập</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="alert('Chức năng này đang cập nhật');return false;"><img
+                                src="./images/register.png" alt="#" width="20" height="20">Đăng ký</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="alert('Chức năng này đang cập nhật');return false;"><img
+                                src="./images/bookmark.png" alt="#" width="20" height="20">Bookmark</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-menu">
+            <ul class="nav justify-content-center bg-dark">
+                <li class="nav-item">
+                    <a id="home-page" class="nav-link active" aria-current="page" href="./index.html">TRANG CHỦ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">THỂ LOẠI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">QUỐC GIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PHIM MỚI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PHIM BỘ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PHIM LẺ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PHIM THUYẾT MINH</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TV SHOW</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        KHÁC
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div id="main">
+        <div class="container bg-dark">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/list-nhung-bo-phim-hay-nhat-cho-cac-mot-phim-update-20224.jpg"
+                            class="d-block w-75 mx-auto" alt="..." height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/bogia.png" class="d-block w-75 mx-auto" alt="..."
+                            height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/UPGRADE.jpg" class="d-block w-75 mx-auto" alt="..." height="500">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container bg-dark">
+            <div class="list-films film-hot">
+                <h2 class="title-box ms-5"><a class="tophot">Phim hot</a></h2>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="card bg-dark p-3" style="width: 380px;">
+                    <img src="./images/NBN_FB_1600x2000.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">NHÀ BÀ NỮ</h5>
+                        <p class="card-text">Nhà Bà Nữ do Kim Entertainment sản xuất, Trấn Thành đạo diễn. Bộ phim
+                            hội tụ những tên tuổi diễn viên thân quen với khán giả Việt như: Trấn Thành, Lê Giang,
+                            NSND Ngọc Giàu, Khả Như, Huỳnh Uyển Ân, Song Luân, Lê Dương Bảo Lâm, NSND Việt Anh, NSƯT
+                            Công Ninh, Ngân Quỳnh, Lý Hạo Mạnh Quỳnh, Phương Lan…</p>
+                        <a href="#" class="btn btn-primary">Xem Phim</a>
+                    </div>
+                </div>
+                <div class="card bg-dark p-3" style="width: 380px;">
+                    <img src="./images/chi_chi_em_em_2-_teaser_poster_-_kc_22012023.jpg" class="card-img-top"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">CHỊ CHỊ EM EM 2</h5>
+                        <p class="card-text">Phim Chị Chị Em Em 2 Chị Chị Em Em 2 dựa trên giai thoại mỹ nhân Ba Trà
+                            & Tư Nhị, Chị Chị Em Em 2 xoay quanh giai đoạn 2 đệ nhất mỹ nhân Ba Trà và Tư Nhị gặp gỡ
+                            nhau, từ đó tái hiện cuộc sống hoa lệ nhiều góc khuất tại Sài thành cách đây một thế kỷ…
+                        </p>
+                        <a href="#" class="btn btn-primary">Xem Phim</a>
+                    </div>
+                </div>
+                <div class="card bg-dark p-3" style="width: 350px;">
+                    <img src="./images/unnamed.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Maurice - một chú mèo ngốc nghếch biết nói với biệt tài lừa đảo kiếm
+                            tiền siêu đỉnh. Maurice và Darktan sẽ gặp những bất ngờ gì trên chuyến phiêu lưu đến hòn
+                            đảo thiên đường?</p>
+                        <a href="#" class="btn btn-primary">Xem Phim</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="card bg-dark p-3" style="width: 400px;">
+                    <img src="./images/8-bo-phim-cuc-hot-tren-netflix-thang-6-2022-ban-khong-nen-bo-lo-202206111343234358.jpg"
+                        class="card-img-top" alt="..." height=240>
+                    <div class="card-body">
+                        <h5 class="card-title">MAN VS BEE</h5>
+                        <p class="card-text">Bộ phim diễn tả sự dí dỏm và hài hước của một người đàn ông đang bị làm
+                            phiền bởi một con ong trong căn dinh thự của mình. Cuộc chiến liệu sẽ nghiêng phần thắng
+                            về phía nào và ngôi nhà của người đàn ông có còn nguyên vẹn hay không? Bộ phim sẽ mang
+                            lại cho người xem những cuộc đụng độ vô cùng hài hước giữa 2 đối thủ kèm theo những tình
+                            huống khiến khán giả phải cười nghiêng ngả.</p>
+                        <a href="#" class="btn btn-primary">Xem Phim</a>
+                    </div>
+                </div>
+                <div class="card bg-dark p-3" style="width: 400px;">
+                    <img src="./images/Who killed Sara.jpg" class="card-img-top" alt="..." height=240>
+                    <div class="card-body">
+                        <h5 class="card-title">WHO KILL SARA?</h5>
+                        <p class="card-text">Bộ phim xoay quanh cái chết bí ẩn của cô gái tên là Sara Guzmán. Anh
+                            trai của cô tên là Álex Guzmán phải lĩnh mức án oan 18 năm tù về sự ra đi của người em
+                            gái. Sau khi ra khỏi tù, anh quyết tâm tìm ra kẻ đã giết hại em gái của mình. Phần 3 của
+                            bộ phim sẽ tiết lộ một số tình tiết bất ngờ về cái chết đầy bí ẩn của Sara cũng như
+                            những bí mật còn đang chờ đợi chúng ta.
+                        </p>
+                        <a href="#" class="btn btn-primary">Xem Phim</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-7 p-3 ">
+                    <nav class="nav bg-dark p-3">
+                        <a class="nav-link active" href="#">PHIM BỘ MỚI CẬP NHẬT</a>
+                        <a class="nav-link" href="#">PHIM LẺ MỚI CẬP NHẬT</a>
+                        <a class="nav-link" href="#">PHIM ĐÃ HOÀN THÀNH</a>
+                    </nav>
+                    <ul class="film-moi tab-content pt-1 d-flex">
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/vinhquanghanthu.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/luatsusunghan.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/ocdaothanhxuan.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images//idolthanhthanh.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="film-moi tab-content pt-1 d-flex">
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/vinhquanghanthu.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/luatsusunghan.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/ocdaothanhxuan.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images//idolthanhthanh.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="film-moi tab-content pt-1 d-flex">
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/vinhquanghanthu.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/luatsusunghan.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/ocdaothanhxuan.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images//idolthanhthanh.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="film-moi tab-content pt-1 d-flex">
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/vinhquanghanthu.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/luatsusunghan.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images/ocdaothanhxuan.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                            </div>
+                        </li>
+                        <li class="card bg-dark" style="width: 150px">
+                            <img src="./images//idolthanhthanh.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+
+                    <div class="list-films film-new ">
+                        <nav class="nav bg-dark p-3 bg-dark">
+                            <a class="nav-link active" href="#">PHIM HOẠT HÌNH</a>
+                        </nav>
+                        <ul class="film-moi tab-content pt-1 d-flex">
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/vinhquanghanthu.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/luatsusunghan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/ocdaothanhxuan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images//idolthanhthanh.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="film-moi tab-content pt-1 d-flex">
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/vinhquanghanthu.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/luatsusunghan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/ocdaothanhxuan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images//idolthanhthanh.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="film-moi tab-content pt-1 d-flex">
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/vinhquanghanthu.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/luatsusunghan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/ocdaothanhxuan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images//idolthanhthanh.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="film-moi tab-content pt-1 d-flex">
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/vinhquanghanthu.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/luatsusunghan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/ocdaothanhxuan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images//idolthanhthanh.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="list-films film-new ">
+                        <nav class="nav bg-dark p-3 bg-dark">
+                            <a class="nav-link active" href="#">ĐƯỢC YÊU THÍCH</a>
+                        </nav>
+                        <ul class="film-moi tab-content pt-1 d-flex">
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/vinhquanghanthu.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/luatsusunghan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/ocdaothanhxuan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images//idolthanhthanh.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                                </div>
+                            </li>
+                        </ul><ul class="film-moi tab-content pt-1 d-flex">
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/vinhquanghanthu.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/luatsusunghan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/ocdaothanhxuan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images//idolthanhthanh.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                                </div>
+                            </li>
+                        </ul><ul class="film-moi tab-content pt-1 d-flex">
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/vinhquanghanthu.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">VINH QUANG TRONG THÙ HẬN PHẦN 2</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/luatsusunghan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">LUẬT SƯ LY HÔN SHIN SUNG HAN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images/ocdaothanhxuan.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">ỐC ĐẢO THANH XUÂN</p>
+                                </div>
+                            </li>
+                            <li class="card bg-dark" style="width: 150px">
+                                <img src="./images//idolthanhthanh.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size: 12px;">IDOL THẦN THÁNH</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-5 p-3">
+                    <div class="trailer-block bg-dark">
+                        <div class="caption">
+                            <h2 class="title-box ms-5"><a class="tophot">Phim hot</a></h2>
+                        </div>
+                        <ul class="list-film p-3">
+                            <li class="film-item-ver d-flex pt-2">
+                                <img src="./images/xichthuocdaitien.jpg"
+                                    width=70>
+                                <div class="title ms-3">
+                                    <p class="name"><a href="#">XÍCH CƯỚC ĐẠI TIÊN</a></p>
+                                    <p class="real-name">2023</p>
+                                </div>
+                            </li>
+                            <li class="film-item-ver d-flex pt-2">
+                                <img src="./images/tayduki.jpg"
+                                    width=70>
+                                <div class="title ms-3">
+                                    <p class="name"><a href="#">TÂY DU KÝ: HỒNG HÀI NHI</a></p>
+                                    <p class="real-name">2023</p>
+                                </div>
+                            </li>
+                            <li class="film-item-ver d-flex pt-2">
+                                <img src="./images/thapthietky.jpg"
+                                    width=70>
+                                <div class="title ms-3">
+                                    <p class="name"><a href="#">THAO THIẾT KÝ</a></p>
+                                    <p class="real-name">2023</p>
+                                </div>
+                            </li>
+                            <li class="film-item-ver d-flex pt-2">
+                                <img src="./images/runningman.jpg"
+                                    width=70>
+                                <div class="title ms-3">
+                                    <p class="name"><a href="#">RUNNING MAN</a></p>
+                                    <p class="real-name">2023</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="caption">
+                            <h2 class="title-box ms-5"><a class="tophot">Trending</a></h2>
+                        </div>
+                        <ol class="list-film mx-3 p-3" style="color: white;">
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Thiếu Niên Ca Hành</a>
+                                <div class="count_view" style="color: white;">97 lượt quan tâm</div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container bg-dark ">
+            <div class="mb-3 w-50 mx-auto">
+                <label for="exampleFormControlInput1" class="form-label" style="color: white;">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 w-50 mx-auto">
+                <label for="exampleFormControlTextarea1" class="form-label" style="color: white;">Example
+                    textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="container d-flex">
+                <button type="button" class="btn btn-outline-success me-5 mx-auto">Success</button>
+                <button type="button" class="btn btn-outline-success mx-auto">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="bg-black text-center text-lg-start" style="height: 200px;" >
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <p>
+                            Xem phim hay miễn phí chất lượng cao với phụ đề tiếng việt - thuyết minh - lồng tiếng. Mọt
+                            phim có nhiều thể loại phim phong phú, đặc sắc, nhiều bộ phim hay nhất - mới nhất.
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <p>
+                            Xem phim hay miễn phí chất lượng cao với phụ đề tiếng việt - thuyết minh - lồng tiếng. Mọt
+                            phim có nhiều thể loại phim phong phú, đặc sắc, nhiều bộ phim hay nhất - mới nhất.
+                        </p>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
+</body>
+
+
+</html>

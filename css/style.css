@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.main-menu #home-page{
+    color: #ff9601;
+    border-bottom: 3px solid #ccc;
+}
+
+.nav-item a:hover{
+    color: #ff9601;
+}
+
+#main{
+    background-color: hsl(0, 0%, 16%);
+}
+
+.tophot{
+    text-decoration: none;
+    color: #ff9601;
+}
+
+#carouselExampleFade .carousel-inner .carousel-item img{
+    align-items: center;
+}
+
+.card-body h5,p {
+    color: white;
+}
+
+#main .row .card {
+    margin-right: 35px;
+}
+
+#main .container .row a{
+    color: #ff9601;
+}
+
+#main .container .row .nav .nav-link:hover{
+    border-bottom: 3px solid #ccc;
+    font-size: 20px;
+}
+
+.trailer-block ul li .title a{
+    text-decoration: none;
+}
+
